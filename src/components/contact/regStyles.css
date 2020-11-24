@@ -1,0 +1,20 @@
+.form-inputs p {
+    color: red
+}
+
+.registerationForm {
+    font-family: sans-serif
+    }
+    
+    label,input{
+        display:block
+    
+    }
+    
+    
+    
+    .input-form {
+        color: rgb(235,54,54);
+        font-size: 14px;
+        font-style: italic
+    }
