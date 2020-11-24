@@ -25,7 +25,7 @@ const RegisterationForm = () => {
     const onSubmit = (data) => {
         console.log(data)
         axios
-        .post("http://localhost:3001/users", data)
+        .post("https://semper-servers.herokuapp.com/users", data)
           .then(res => {
             if(res.data.result === "success") {
              swal("Success!", res.data.message, "success")
