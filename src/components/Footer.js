@@ -1,5 +1,5 @@
 import React from 'react';
-
+import moment from 'moment'
 
 const Footer = () => {
  
@@ -58,7 +58,13 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                
+                <div class="row mt-md-5">
+							<div class="col-md-12">
+								<p class="copyright">
+					  Copyright {moment().format('MMMM YYYY')}.All rights reserved | <strong>Tenica-Technology</strong>.
+					 </p>
+							</div>
+						</div>
 						</div>
 					</div>
            
