@@ -43,11 +43,12 @@ const RegisterationForm = () => {
           });
       };
     
-
-
+     
     
 
-    return ( <div className="form-inputs">
+    return (
+
+        <div className="form-inputs">
         <form method="POST" id="contactForm" name="contactForm" className="contactForm" onSubmit={handleSubmit(onSubmit)}>
 
                 <div className="row">
@@ -96,7 +97,7 @@ const RegisterationForm = () => {
                htmlFor="email">Email Address
             </label>
             <input type="email"
-            ref={register( {required: true, })}
+            ref={register( {required: true})}
             className="form-control" 
             name="email" 
             id="email" 

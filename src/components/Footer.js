@@ -14,8 +14,7 @@ const Footer = () => {
                         <h2 className ="footer-heading">About us</h2>
                         <img style={{width:"50px"}} src={"images/cicsize.png"} alt=""/>
                         <p>The idea of the old boys association was conceived when it was considered
-                        necessary to create an organization that would embrace different generations of the University.
-                        The body was expected to play a dominant role in the life of the University by reflecting the views of its graduates.</p>
+                        necessary to create an organization that would keep us together after school.</p>
                         <ul className ="ftco-footer-social p-0">
               <li className ="ftco-animate"><a href="/" data-toggle="tooltip" data-placement="top" title="Twitter"><span className ="ion-logo-twitter"></span></a></li>
               <li className ="ftco-animate"><a href="/" data-toggle="tooltip" data-placement="top" title="Facebook"><span className ="ion-logo-facebook"></span></a></li>
@@ -29,10 +28,10 @@ const Footer = () => {
                                     <div className ="col-md-4 mb-md-0 mb-4">
                                         <h2 className ="footer-heading">Services</h2>
                                         <ul className ="list-unstyled">
-                              <li><a href="/client-side" className ="py-1 d-block">Construction</a></li>
+                              <li><a href="/" className ="py-1 d-block">Construction</a></li>
                               <li><a href="/" className ="py-1 d-block">House Renovation</a></li>
                               <li><a href="/" className ="py-1 d-block">Painting</a></li>
-                              <li><a href="/" className ="py-1 d-block">Arhictecture Design</a></li>
+                              <li><a href="/" className ="py-1 d-block">Arcictecture Design</a></li>
                             </ul>
                                     </div>
                                     <div className ="col-md-4 mb-md-0 mb-4">

@@ -8,7 +8,7 @@ const Body = () => {
         	<div className="col-lg-3 col-sm-6">
         		<div className="block-2 ftco-animate">
 	            <div className="flipper">
-	              <div className="front" style={{backgroundImage: "url(/images/President.jpeg)"}}>
+	              <div className="front" style={{backgroundImage: "url(/images/President.jpg)"}}>
 	                <div className="box">
 	                  <h2>Onyema Chika</h2>
 	                  <p>President</p>
@@ -21,7 +21,7 @@ const Body = () => {
 	                </div>
 	                <div className="author d-flex">
 	                  <div className="image align-self-center">
-	                    <img src="images/President.jpeg" alt="" />
+	                    <img src="images/President.jpg" alt="" />
 	                  </div>
 	                  <div className="name align-self-center ml-3">Onyema Chika <span className="position">President</span></div>
 	                </div>
